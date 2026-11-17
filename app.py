@@ -5,7 +5,7 @@ import requests
 import streamlit as st
 
 # Defaults to the local API. Set API_URL to use a deployed API.
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000").rstrip("/")
+API_URL = os.getenv("API_URL", "https://github-repository-q-a-chatbot-hybrid-rag.onrender.com/").rstrip("/")
 
 st.title("GitHub Repository Q&A Chatbot")
 
